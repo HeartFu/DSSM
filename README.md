@@ -1,10 +1,10 @@
 # 双塔模型 - DSSM
 
 ## 0. TODO List  
-a. - [x]DSSM  
-b. - [x]SENet  
-c. - [ ]Self-Attention for sequence  
-d. - [x]Training & Testing  
+a. - [x] DSSM  
+b. - [x] SENet  
+c. - [ ] Self-Attention for sequence  
+d. - [x] Training & Testing  
 
 ## 1.DSSM基础理论
 
