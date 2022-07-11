@@ -3,12 +3,13 @@
 ## 0. TODO List  
 a. [x]DSSM  
 b. [x]SENet  
-c. []Self-Attention for sequence  
+c. [ ]Self-Attention for sequence  
 d. [x]Training & Testing  
+
+## 1.DSSM基础理论
 
 双塔模型最早是2013年微软提出来的 Learning Deep Structured Semantic Models for Web Search using Clickthrough Data，主要是来解决搜索过程中query词和doc之前的一个匹配问题，后来很多大厂沿用这个思路，将其应用到了推荐领域。
 
-## 1.DSSM基础理论
 ### 1.1 DSSM简介
 DSSM(Deep Structured Semantic Models)，也叫**深度语义匹配模型**，文章的本意是用来进行语义相似度计算的。主要通过对用户输入的Query的历史和Documents进行embedding编码，使用余弦相似度计算用户query的embedding和documents的Embedding的相似程度，继而达到语义相似度计算的目的。
 
