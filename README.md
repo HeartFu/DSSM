@@ -1,5 +1,11 @@
 # 双塔模型 - DSSM
 
+0. TODO List
+a. [x]DSSM
+b. [x]SENet
+c. []Self-Attention for sequence
+d. [x]Training & Testing
+
 双塔模型最早是2013年微软提出来的 Learning Deep Structured Semantic Models for Web Search using Clickthrough Data，主要是来解决搜索过程中query词和doc之前的一个匹配问题，后来很多大厂沿用这个思路，将其应用到了推荐领域。
 
 ## 1.DSSM基础理论
@@ -241,7 +247,7 @@ Test AUC: 0.73
 1. 行为序列的建模，比如self-attention等。
 2. 模型结构修改，类似并联双塔。
 
-## ## Reference
+## Reference
 1. [Learning Deep Structured Semantic Models for Web Search using Clickthrough Data](https://www.microsoft.com/en-us/research/publication/learning-deep-structured-semantic-models-for-web-search-using-clickthrough-data/)
 2. [久别重逢话双塔](https://zhuanlan.zhihu.com/p/428396126)
 3. [双塔模型DSSM及各种变体塔](https://zhuanlan.zhihu.com/p/358781457)
