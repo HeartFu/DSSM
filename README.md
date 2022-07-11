@@ -1,10 +1,6 @@
 # 双塔模型 - DSSM
 
-## 0. TODO List  
-a. - [x] DSSM  
-b. - [x] SENet  
-c. - [ ] Self-Attention for sequence  
-d. - [x] Training & Testing  
+该项目实现了基于PyTorch和MovieLen 1M的DSSM模型及训练预测脚本，包括SENet和随机负采样。
 
 ## 1.DSSM基础理论
 
